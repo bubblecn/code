@@ -1,0 +1,399 @@
+.content {
+	width: 1200px;
+	height: 650px;
+}
+
+div.left {
+	/*background: #CC33CC;*/
+	width: 40%;
+	height: 650px;
+	float: left;
+}
+
+div.right {
+	/*background: #3333CC;*/
+	width: 60%;
+	height: 650px;
+	float: right;
+}
+
+#head {
+	/*background: #CC33CC;*/
+	width: 550px;
+	height: 240px;
+	float: left;
+}
+
+#center {
+	/*background: #3333CC;*/
+	width: 550px;
+	height: 100px;
+	float: left;
+}
+
+#foot {
+	/*background: #CC3333;*/
+	width: 550px;
+	height: 100px;
+	float: left;
+}
+
+/*左侧栏信息输出*/
+#l_L1 {
+	list-style-type: none;
+	margin: 225px 0px 0px 340px;
+}
+
+#l_L2 {
+	list-style-type: none;
+	margin: 25px 0px 0px 340px;
+}
+
+#l_L3 {
+	list-style-type: none;
+	margin: 21px 0px 0px 340px;
+}
+#l_L4 {
+	list-style-type: none;
+	margin: 21px 0px 0px 340px;
+}
+#l_L5 {
+	list-style-type: none;
+	margin: 0px 0px 0px 340px;
+}
+
+#h_s1 {
+	list-style-type: none;
+	padding:180px 0px 0px 50px;
+	float:left;
+}
+
+/*上边座位的状态控制*/
+
+#h_sta1 {
+	list-style-type: none;
+	padding:0px 0px 0px 50px;
+	float:left;	
+}
+#h_sta2 {
+	list-style-type: none;
+	padding:0px 0px 0px 50px;
+	float:left;	
+}
+#h_sta3 {
+	list-style-type: none;
+	padding:0px 0px 0px 70px;
+	float:left;	
+}
+#h_sta4 {
+	list-style-type: none;
+	padding:0px 0px 0px 50px;
+	float:left;	
+}
+#h_sta5 {
+	list-style-type: none;
+	padding:0px 0px 0px 20px;
+	float:left;	
+}
+#h_sta6 {
+	list-style-type: none;
+	padding:0px 0px 0px 50px;
+	float:left;	
+}
+#h_sta7 {
+	list-style-type: none;
+	padding:0px 0px 0px 50px;
+	float:left;	
+}
+#h_sta8 {
+	list-style-type: none;
+	padding:0px 0px 0px 50px;
+	float:left;	
+}
+
+#h_d1{
+	list-style-type: none;
+	float:left;
+	padding: 180px 0px 0px 0px;
+
+}
+#h_s2{
+	list-style-type: none;
+	float:left;
+	padding: 180px 0px 0px 0px;
+
+}
+#h_s3 {
+	list-style-type: none;
+	padding: 180px 0px 0px 50px;
+	float:left;
+}
+#h_d3{
+	list-style-type: none;
+	float:left;
+	padding: 180px 0px 0px 0px;
+
+}
+#h_s4{
+	list-style-type: none;
+	float:left;
+	padding: 180px 0px 0px 0px;
+
+}
+#h_s5 {
+	list-style-type: none;
+	padding: 180px 0px 0px 0px;
+	float:left;
+}
+#h_d5{
+	list-style-type: none;
+	float:left;
+	padding: 180px 0px 0px 0px;
+
+}
+#h_s6{
+	list-style-type: none;
+	float:left;
+	padding: 180px 0px 0px 0px;
+
+}
+#h_s7 {
+	list-style-type: none;
+	padding: 180px 0px 0px 50px;
+	float:left;
+}
+#h_d7{
+	list-style-type: none;
+	float:left;
+	padding: 180px 0px 0px 0px;
+
+}
+#h_s8{
+	list-style-type: none;
+	float:left;
+	padding: 180px 0px 0px 0px;
+
+}
+
+
+#c_s9 {
+	list-style-type: none;
+	padding:30px 0px 0px 50px;
+	float:left;
+}
+#c_d9{
+	list-style-type: none;
+	float:left;
+	padding: 30px 0px 0px 0px;
+
+}
+#c_s10{
+	list-style-type: none;
+	float:left;
+	padding: 30px 0px 0px 0px;
+
+}
+#c_s11 {
+	list-style-type: none;
+	padding: 30px 0px 0px 50px;
+	float:left;
+}
+#c_d11{
+	list-style-type: none;
+	float:left;
+	padding: 30px 0px 0px 0px;
+
+}
+#c_s12{
+	list-style-type: none;
+	float:left;
+	padding: 30px 0px 0px 0px;
+
+}
+#c_s13 {
+	list-style-type: none;
+	padding: 30px 0px 0px 0px;
+	float:left;
+}
+#c_d13{
+	list-style-type: none;
+	float:left;
+	padding: 30px 0px 0px 0px;
+
+}
+#c_s14{
+	list-style-type: none;
+	float:left;
+	padding: 30px 0px 0px 0px;
+
+}
+#c_s15 {
+	list-style-type: none;
+	padding: 30px 0px 0px 50px;
+	float:left;
+}
+#c_d15{
+	list-style-type: none;
+	float:left;
+	padding: 30px 0px 0px 0px;
+
+}
+#c_s16{
+	list-style-type: none;
+	float:left;
+	padding:30px 0px 0px 0px;
+
+}
+/*中间座位的状态控制*/
+#c_sta1 {
+	list-style-type: none;
+	padding:0px 0px 0px 50px;
+	float:left;	
+}
+#c_sta2 {
+	list-style-type: none;
+	padding:0px 0px 0px 50px;
+	float:left;	
+}
+#c_sta3 {
+	list-style-type: none;
+	padding:0px 0px 0px 70px;
+	float:left;	
+}
+#c_sta4 {
+	list-style-type: none;
+	padding:0px 0px 0px 50px;
+	float:left;	
+}
+#c_sta5 {
+	list-style-type: none;
+	padding:0px 0px 0px 20px;
+	float:left;	
+}
+#c_sta6 {
+	list-style-type: none;
+	padding:0px 0px 0px 50px;
+	float:left;	
+}
+#c_sta7 {
+	list-style-type: none;
+	padding:0px 0px 0px 50px;
+	float:left;	
+}
+#c_sta8 {
+	list-style-type: none;
+	padding:0px 0px 0px 50px;
+	float:left;	
+}
+
+#f_s17 {
+	list-style-type: none;
+	padding:30px 0px 0px 50px;
+	float:left;
+}
+#f_d17{
+	list-style-type: none;
+	float:left;
+	padding: 30px 0px 0px 0px;
+
+}
+#f_s18{
+	list-style-type: none;
+	float:left;
+	padding: 30px 0px 0px 0px;
+
+}
+#f_s19 {
+	list-style-type: none;
+	padding: 30px 0px 0px 50px;
+	float:left;
+}
+#f_d19{
+	list-style-type: none;
+	float:left;
+	padding: 30px 0px 0px 0px;
+
+}
+#f_s20{
+	list-style-type: none;
+	float:left;
+	padding: 30px 0px 0px 0px;
+
+}
+#f_s21 {
+	list-style-type: none;
+	padding: 30px 0px 0px 0px;
+	float:left;
+}
+#f_d21{
+	list-style-type: none;
+	float:left;
+	padding: 30px 0px 0px 0px;
+
+}
+#f_s22{
+	list-style-type: none;
+	float:left;
+	padding: 30px 0px 0px 0px;
+
+}
+#f_s23 {
+	list-style-type: none;
+	padding: 30px 0px 0px 50px;
+	float:left;
+}
+#f_d23{
+	list-style-type: none;
+	float:left;
+	padding: 30px 0px 0px 0px;
+
+}
+#f_s24{
+	list-style-type: none;
+	float:left;
+	padding:30px 0px 0px 0px;
+
+}
+
+/*下边座位的状态控制*/
+
+#f_sta1 {
+	list-style-type: none;
+	padding:0px 0px 0px 50px;
+	float:left;	
+}
+#f_sta2 {
+	list-style-type: none;
+	padding:0px 0px 0px 50px;
+	float:left;	
+}
+#f_sta3 {
+	list-style-type: none;
+	padding:0px 0px 0px 70px;
+	float:left;	
+}
+#f_sta4 {
+	list-style-type: none;
+	padding:0px 0px 0px 50px;
+	float:left;	
+}
+#f_sta5 {
+	list-style-type: none;
+	padding:0px 0px 0px 20px;
+	float:left;	
+}
+#f_sta6 {
+	list-style-type: none;
+	padding:0px 0px 0px 50px;
+	float:left;	
+}
+#f_sta7 {
+	list-style-type: none;
+	padding:0px 0px 0px 50px;
+	float:left;	
+}
+#f_sta8 {
+	list-style-type: none;
+	padding:0px 0px 0px 50px;
+	float:left;	
+}

@@ -1,0 +1,90 @@
+#content{
+   width:1500px;
+   height:700px;
+  <!-- background:#33ff33;-->
+}
+#left{
+   width:700px;
+   height:700px;
+   float:left;	
+}
+
+#right{
+   width:700px;
+   height:700px;
+  float:left;	
+}
+#h1{
+	list-style-type: none;
+	margin: 55px 0px 0px 720px;
+ float:left;	
+}
+#h2{
+	list-style-type: none;
+	margin: 55px 0px 0px 50px;
+  float:left;	
+}
+
+#h3{
+	list-style-type: none;
+	margin: 55px 0px 0px 60px;
+float:left;	
+
+}
+#h4{
+	list-style-type: none;
+	margin: 55px 0px 0px 65px;
+float:left;	
+}
+
+#lph1{
+	list-style-type: none;
+	margin: 155px 0px 0px 120px;
+ float:left;	
+}
+#lc1{
+	list-style-type: none;
+	margin: 155px 0px 0px 0px;
+ float:left;
+ width:230px;
+ height:50px;
+}
+
+#lph2{
+	list-style-type: none;
+	margin: 55px 0px 0px 120px;
+  float:left;	
+
+}
+#lc2{
+	list-style-type: none;
+	margin: 55px 0px 0px 0px;
+ float:left;
+ width:230px;
+ height:50px;
+}
+
+#lph3{
+	list-style-type: none;
+	margin: 155px 0px 0px 0px;
+float:left;
+}
+#lc3{
+	list-style-type: none;
+	margin: 155px 0px 0px 0px;
+ float:left;
+ width:230px;
+ height:150px;
+}
+
+#lph4{
+	list-style-type: none;
+	margin: 55px 0px 0px 0px;
+float:left;	
+}
+#lc4{
+	list-style-type: none;
+	margin: 55px 0px 0px 0px;
+
+}
+
