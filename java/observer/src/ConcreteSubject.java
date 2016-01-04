@@ -21,13 +21,6 @@ public class ConcreteSubject extends Observable {
 	public float getPrice() {
 		return price;
 	}
-/*
-	public void setName(String name) {
-		this.name = name;
-		setChanged();
-		notifyObservers(name);
-	}
-*/
 	public void setPrice(float price) {
 		this.price = price;
 		setChanged();

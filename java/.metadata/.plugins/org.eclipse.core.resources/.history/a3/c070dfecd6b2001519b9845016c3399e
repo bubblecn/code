@@ -1,0 +1,26 @@
+// "ConcreteClass" 具体类
+public class CustomerDataObject extends  DataObject
+{
+	private String connectionString =
+		"Server=.;User ID=sa;password=123;database=Northwind;Connection Reset=FALSE";
+	private String commandString;
+	private DataSet dataSet;
+    private SqlConnection dataConnection;
+	// Methods 方法
+	public override void Connect( )
+	{
+		dataConnection=new SqlConnection(connectionString);
+		dataConnection.Open();
+	}
+	public void Select() {
+		// TODO Auto-generated method stub
+		
+	}
+	public void Process() {
+		// TODO Auto-generated method stub
+		
+	}
+	public void Disconnect() {
+		// TODO Auto-generated method stub
+		
+	}

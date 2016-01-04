@@ -1,0 +1,9 @@
+//正常收费，继承CashSuper
+    class CashNormal extends CashSuper
+    {
+        public override double acceptCash(double money)
+        {
+            //原价返回
+            return money;
+        }
+    }

@@ -1,0 +1,31 @@
+import java.io.IOException;
+
+public class TestStrategy {
+	public static void main(String arg[]) throws IOException {
+		System.out.println("请选择：１(正常收费);2(打折收费);3:(返利收费)");
+		int read = 0;
+		read = (int)System.in.read();
+		System.out.println(read);
+		CashSuper test1 = new CashNormal();
+		CashSuper test2 = new CashRebate(0.8);
+		CashSuper test3 = new CashReturn(300,100);
+		CashContext content;
+		switch(read){
+		case 1:
+			content = new CashContext(test1);
+			double result = content.GetResult(100);
+			System.out.println("价格为：" + result);
+			break;
+		case 2:
+			content = new CashContext(test2);
+			 result = content.GetResult(100);
+			System.out.println("价格为：" + result);
+			break;
+		case 3:
+			content = new CashContext(test3);
+			 result = content.GetResult(300);
+			System.out.println("价格为：" + result);
+			break;
+		}
+	}
+}

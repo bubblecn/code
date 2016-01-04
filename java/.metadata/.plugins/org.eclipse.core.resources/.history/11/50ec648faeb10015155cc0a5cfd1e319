@@ -1,0 +1,15 @@
+import java.io.IOException;
+
+public class TestStrategy {
+	public static void main(String arg[]) throws IOException {
+		System.out.println("请选择：１(正常收费);2(打折收费);3:(返利收费)");
+		int read = 0;
+		System.in.read();
+		CashSuper test1 = new CashNormal();
+		CashSuper test2 = new CashRebate();
+		
+		CashContext content = new CashContext(test1);
+		double result = content.GetResult(100);
+		System.out.println("价格为：" + result);
+	}
+}

@@ -1,0 +1,14 @@
+public class VertScrollbar extends Decorator {
+	private Component component;
+
+	public VertScrollbar(Component component) {
+		// this.component = component;
+		super(component);
+	}
+
+	public void draw() {
+		component.draw();
+		// Code to draw the FancyBorder object itself.
+		System.out.println("VertScrollbar");
+	}
+}

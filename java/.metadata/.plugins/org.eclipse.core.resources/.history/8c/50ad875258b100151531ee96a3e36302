@@ -1,0 +1,10 @@
+/*
+ * 股票类，实现买入卖出方法
+ */
+public class Stock {
+	String StName;
+	public Stock(String StName)
+	{
+		
+	}
+}

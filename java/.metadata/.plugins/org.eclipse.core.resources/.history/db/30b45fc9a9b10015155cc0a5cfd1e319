@@ -1,0 +1,6 @@
+
+public class TestStrategy {
+		CashSuper test1 = new CashNormal();
+		CashContext content = new CashContext(test1);
+		double result = content.GetResult(100);
+}

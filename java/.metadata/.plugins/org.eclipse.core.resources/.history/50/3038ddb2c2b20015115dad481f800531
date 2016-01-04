@@ -1,0 +1,12 @@
+//
+public class FancyBorder extends Decorator {
+	private Component component;
+
+	public FancyBorder(Component component) {
+		super(component);
+	}
+
+	public void draw() {
+		System.out.println("FacyBorder");
+	}
+}

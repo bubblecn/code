@@ -1,0 +1,6 @@
+/*
+ * 手机借口
+ */
+public interface Mobile{
+    public void call();
+}

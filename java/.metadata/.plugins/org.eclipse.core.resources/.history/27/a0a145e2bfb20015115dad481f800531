@@ -1,0 +1,8 @@
+public class Client {
+	public static void main(String[] args) {
+		TextView data = new TextView();
+		Component borderData = new FancyBorder(data);
+		Component scrolledData = new VertScrollbar(data);
+		// Component borderAndScrolledData = new HorzScrollbar(borderData);
+	}
+}

@@ -1,0 +1,23 @@
+//总监
+    public class Majordomo extends Manager
+    {
+        public Majordomo(String m_name)
+        {
+    		super(m_name);
+        }
+        public  void RequestApplications(Request request)
+        {
+//经理所能有的权限就是可准许下属两天内的假期
+            if (request.getRequestType().equals("请假") && request.getNumber() <= 5)
+            {
+                //Console.WriteLine("{0}:{1} 数量{2} 被批准", name, request.RequestContent, request.Number);
+            	System.out.println(name+":"+ request.getRequestContent()+"数量"+request.getNumber()+"被批准");
+            }
+            else
+            {
+//其余的申请都需要转到上级
+               if (superior != null)
+                    superior.RequestApplications(request);
+            }
+        }
+    }

@@ -1,0 +1,13 @@
+//被追求者
+    public class SchoolGirl
+    {
+        private String name;
+        public String getName()
+        {
+             return name; 
+        }
+        public String setName(String value)
+        {
+            name = value; 
+        }
+    }

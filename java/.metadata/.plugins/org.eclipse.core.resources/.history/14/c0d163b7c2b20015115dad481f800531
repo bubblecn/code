@@ -1,0 +1,7 @@
+//import java.awt.Component;
+public  class TextView implements Component {
+	    public void draw() {
+	        //代码
+	        System.out.println("Monkey Move");
+	    }
+}

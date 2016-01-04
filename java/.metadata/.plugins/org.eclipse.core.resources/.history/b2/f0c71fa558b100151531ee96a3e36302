@@ -1,0 +1,18 @@
+/*
+ * 股票类，实现买入卖出方法
+ */
+public class stock {
+	string stname;
+	public stock(string m_stname)
+	{
+		stname =  m_stname;
+	}
+	public void sell()
+	{
+		system.out.println(stname+"卖出");
+	}
+	public void buy()
+	{
+		system.out.println(stname+"买入");
+	}
+}

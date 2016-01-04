@@ -1,0 +1,13 @@
+//horizontal类型的滚动条
+public class HVScrollbar extends Decorator {
+	private Component component;
+
+	public HVScrollbar(Component component) {
+		super(component);
+	}
+
+	public void draw() {
+		//为textView添加一个horizontal类型的滚动条
+		System.out.println("HorzScrollbar");
+	}
+}

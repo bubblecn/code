@@ -1,0 +1,13 @@
+//Border3D类型的边框
+public class Border3D extends Decorator {
+	private Component component;
+
+	public Border3D(Component component) {
+		super(component);
+	}
+
+	public void draw() {
+		//为textView添加一个Border3D类型的边框
+		System.out.println("Border3D");
+	}
+}

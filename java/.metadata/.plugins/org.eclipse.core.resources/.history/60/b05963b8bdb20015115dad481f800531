@@ -1,0 +1,7 @@
+
+public class Decorator {
+	public void draw()
+	{
+		
+	}
+}

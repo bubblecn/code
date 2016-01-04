@@ -1,0 +1,13 @@
+/*
+ * 测试代码
+ */
+public class TestState {
+	public static void main(String arg[])
+	{
+		Context con = new Context();
+		con.pull();
+		con.pull();
+		con.pull();
+		con.pull();
+	}
+}

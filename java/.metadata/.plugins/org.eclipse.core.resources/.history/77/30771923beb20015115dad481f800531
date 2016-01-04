@@ -1,0 +1,12 @@
+
+public class Decorator implements Component {
+	private Component text;
+	public Decorator(Component text)
+	{
+		this.text = text;
+	}
+	public void Draw()
+	{
+		text.Draw();
+	}
+}

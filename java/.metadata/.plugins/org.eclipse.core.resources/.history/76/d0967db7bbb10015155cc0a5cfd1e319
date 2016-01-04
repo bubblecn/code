@@ -1,0 +1,20 @@
+public class CommonManager extends  Manager{
+        public CommonManager(String m_name)
+            {
+        		super(m_name);
+            }
+        public  void RequestApplications(Request request)
+        {
+//经理所能有的权限就是可准许下属两天内的假期
+            if (request.getRequestType().equals("请假") && request.getNumber() <= 2)
+            {
+                //Console.WriteLine("{0}:{1} 数量{2} 被批准", name, request.RequestContent, request.Number);
+            }
+           // else
+            {
+//其余的申请都需要转到上级
+               // if (superior != null)
+              //      superior.RequestApplications(request);
+            }
+        }
+    }

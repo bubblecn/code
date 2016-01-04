@@ -1,0 +1,26 @@
+import java.util.*;
+public class Iterator {
+	public static void main(String args[])
+	{
+		Vector v = new Vector();
+		v.addElement(new String("Item 0"));
+		v.addElement(new String("Item 1"));
+		v.addElement(new String("Item 2"));
+		v.addElement(new String("Item 3"));
+		v.addElement(new String("Item 4"));
+		v.addElement(new String("Item 5"));
+		v.addElement(new String("Item 6"));
+		v.addElement(new String("Item 7"));
+		v.addElement(new String("Item 8"));
+		Enumeration ev = v.elements();
+		traverse(ev);
+	}
+	private static void traverse(Enumeration e)
+	{
+		while(e.hasMoreElements())
+		{
+			System.out.println(e.nextElement());
+			e.nextElement();
+		}
+	}
+}

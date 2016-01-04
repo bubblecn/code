@@ -1,0 +1,16 @@
+/*
+ * 基金类
+ */
+public class Fund {
+	Stock gu1;
+	Stock gu2;
+	Stock gu3;
+	NationDebt1 nd1;
+	public Fund(){
+	gu1 = new Stock("gu1");
+	 gu2 = new Stock("gu2");
+	gu3 = new Stock("gu3");
+	NationDebt1 nd1 = new NationDebt1("nd1");
+	Realty1 rt1 = new Realty1("rt1");
+	}
+}

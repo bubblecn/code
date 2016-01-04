@@ -1,0 +1,11 @@
+public class FancyBorder extends Decorator {
+private Component component;
+public FancyBorder(Component component) {
+	this.component = component;
+}
+public void draw() {
+	component.draw();
+	// Code to draw the FancyBorder object itself.
+}
+}
+

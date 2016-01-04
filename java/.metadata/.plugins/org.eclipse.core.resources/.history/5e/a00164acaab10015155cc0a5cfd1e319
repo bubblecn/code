@@ -1,0 +1,11 @@
+
+public class TestStrategy {
+		public static void main(String arg[]){
+			double read=0;
+			System.in.read();
+		CashSuper test1 = new CashNormal();
+		CashContext content = new CashContext(test1);
+		double result = content.GetResult(100);
+		System.out.println("价格为："+result);
+		}
+}

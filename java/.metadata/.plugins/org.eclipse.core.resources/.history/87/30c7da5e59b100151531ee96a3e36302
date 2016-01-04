@@ -1,0 +1,7 @@
+/*
+ * 基金类
+ */
+public class Fund {
+	Stock gu1("gu1");
+	
+}

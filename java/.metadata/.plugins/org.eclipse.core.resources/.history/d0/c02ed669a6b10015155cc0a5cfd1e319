@@ -1,0 +1,11 @@
+//返利收费，继承CashSuper
+    public class CashReturn  implements CashSuper
+    {
+        private double moneyCondition = 0.0d;
+        private double moneyReturn = 0.0d;
+        //初始化时必须要输入返利条件和返利值，比如满300返100，则moneyCondition为300，moneyReturn为100
+        public CashReturn(string moneyCondition, string moneyReturn)
+        {
+            this.moneyCondition = double.Parse(moneyCondition);
+            this.moneyReturn = double.Parse(moneyReturn);
+        }

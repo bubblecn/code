@@ -1,0 +1,18 @@
+
+public class Border3D {
+
+}
+public class Border3D extends Decorator {
+	private Component component;
+
+	public FancyBorder(Component component) {
+		// this.component = component;
+		super(component);
+	}
+
+	public void draw() {
+		component.draw();
+		// Code to draw the FancyBorder object itself.
+		System.out.println("Border3D");
+	}
+}

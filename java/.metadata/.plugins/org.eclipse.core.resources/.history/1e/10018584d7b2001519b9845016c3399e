@@ -1,0 +1,17 @@
+public abstract class DataObject
+{
+	// Methods 方法
+	abstract public void Connect();
+	abstract public void Select();
+	abstract public void Process();
+	abstract public void Disconnect();
+	// The "Template Method" 模板方法
+	public void Run()
+	{
+		Connect();
+		Select();
+		Process();
+		Disconnect();
+	}
+}
+
