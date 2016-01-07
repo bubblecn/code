@@ -1,6 +1,0 @@
-/*
- * 手机工厂借口
- */
-public interface MobileFactory{
-    public Mobile produceMobile();
-}
